@@ -1,0 +1,16 @@
+COLOQUE O DRIVER POSTGRESQL AQUI
+
+O Tomcat só carrega JARs que estão em WEB-INF/lib.
+
+1. Baixe o driver em: https://jdbc.postgresql.org/download/
+   (arquivo como: postgresql-42.7.1.jar)
+
+2. Copie o JAR para ESTA pasta (WEB-INF/lib).
+
+3. No Eclipse: Build Path > Configure Build Path > Libraries > Add JARs
+   Selecione o mesmo JAR que está nesta pasta (WEB-INF/lib).
+
+4. Faça Clean do projeto e reinicie o servidor Tomcat.
+
+Sem o JAR nesta pasta, ao rodar a aplicação ocorre:
+"ClassNotFoundException: org.postgresql.Driver"
