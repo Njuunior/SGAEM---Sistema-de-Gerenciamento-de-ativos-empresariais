@@ -1,4 +1,4 @@
-# SGAEM - Sistema de Gestão Empresarial
+# SGAEM - Sistema de Gerenciamento de ativos empresariais
 
 ## Sobre o Projeto
 
